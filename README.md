@@ -1,0 +1,2 @@
+This is a simple and interactive weather forecasting web app built with Streamlit and powered by the OpenWeather API. Users can enter a city, choose the number of forecast days (up to 5), and view either temperature trends (with Plotly charts) or sky conditions (with weather icons). The app provides real-time weather data and is designed with a clean, responsive layout. Ideal for quick weather insights in a user-friendly format.
+
