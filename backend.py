@@ -1,6 +1,10 @@
 import requests
+import os
+from dotenv import load_dotenv
 
-APIkey = "d1e664b602ad5f5f1eadbaac292fcad6"
+load_dotenv()
+APIkey = os.getenv("APIkey")
+
 
 def get_data(place, forecast_days=None,):
     url = f"http://api.openweathermap.org/data/2.5/forecast?q={place}&appid={APIkey}&units=metric"
